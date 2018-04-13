@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_Config'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FFFlowerDemoComponent_Config.'
+  s.version          = '1'
+  s.summary          = '基础配置组件，属于最基础的组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 基础配置组件，属于最基础的组件，其他几乎所有组件都可能直接或间接的引用它
                        DESC
 
   s.homepage         = 'https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Config'

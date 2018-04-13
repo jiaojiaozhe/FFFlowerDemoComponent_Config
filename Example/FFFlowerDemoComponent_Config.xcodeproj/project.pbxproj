@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1F1021FD8463BF3DF2B46146 /* Pods_FFFlowerDemoComponent_Config_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_Config_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F9D4FAEBD5ACC6E23322922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F9D4FAEBD5ACC6E23322922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFFlowerDemoComponent_Config_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFFlowerDemoComponent_Config_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +61,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A547623A8833D99C86C54587 /* Pods-FFFlowerDemoComponent_Config_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Config_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Config_Example/Pods-FFFlowerDemoComponent_Config_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A69E36E7DA3D1B2A36629C4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A69E36E7DA3D1B2A36629C4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B2D845988F655D2ED2458D39 /* Pods-FFFlowerDemoComponent_Config_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Config_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Config_Tests/Pods-FFFlowerDemoComponent_Config_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B7332C7BEB3831A022334970 /* Pods_FFFlowerDemoComponent_Config_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_Config_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB2DEE6BE33594F3B71C044B /* Pods-FFFlowerDemoComponent_Config_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Config_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Config_Example/Pods-FFFlowerDemoComponent_Config_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F556CA4CBD8AA0456EEF080B /* FFFlowerDemoComponent_Config.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFFlowerDemoComponent_Config.podspec; path = ../FFFlowerDemoComponent_Config.podspec; sourceTree = "<group>"; };
+		F556CA4CBD8AA0456EEF080B /* FFFlowerDemoComponent_Config.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_Config.podspec; path = ../FFFlowerDemoComponent_Config.podspec; sourceTree = "<group>"; };
 		F96FB11E368973DE3CE16182 /* Pods-FFFlowerDemoComponent_Config_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Config_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Config_Tests/Pods-FFFlowerDemoComponent_Config_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiaojiaozhe;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3AGWUAQ7VV;
+						ProvisioningStyle = Automatic;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,12 +537,16 @@
 			baseConfigurationReference = A547623A8833D99C86C54587 /* Pods-FFFlowerDemoComponent_Config_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -548,12 +556,16 @@
 			baseConfigurationReference = EB2DEE6BE33594F3B71C044B /* Pods-FFFlowerDemoComponent_Config_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Config/FFFlowerDemoComponent_Config-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

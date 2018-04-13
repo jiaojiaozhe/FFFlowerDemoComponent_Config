@@ -1,0 +1,16 @@
+PODS:
+  - FFFlowerDemoComponent_Config (0.1.0)
+
+DEPENDENCIES:
+  - FFFlowerDemoComponent_Config (from `../`)
+
+EXTERNAL SOURCES:
+  FFFlowerDemoComponent_Config:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FFFlowerDemoComponent_Config: 2641d5ba2433c7623606b8228100ad67b0db28af
+
+PODFILE CHECKSUM: 20a7bf1f1a8f274147b2b381770365a9a45102ff
+
+COCOAPODS: 1.4.0

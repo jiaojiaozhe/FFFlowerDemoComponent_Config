@@ -1,0 +1,22 @@
+{
+  "name": "FFFlowerDemoComponent_Config",
+  "version": "0.1.0",
+  "summary": "A short description of FFFlowerDemoComponent_Config.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Config",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaojiaozhe": "lanbiao@fengnian.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Config.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFFlowerDemoComponent_Config/Classes/**/*"
+}
