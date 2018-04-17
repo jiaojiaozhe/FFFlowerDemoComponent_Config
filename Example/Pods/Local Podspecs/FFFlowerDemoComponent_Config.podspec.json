@@ -1,8 +1,8 @@
 {
   "name": "FFFlowerDemoComponent_Config",
-  "version": "0.1.0",
-  "summary": "A short description of FFFlowerDemoComponent_Config.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.1",
+  "summary": "基础配置组件，属于最基础的组件",
+  "description": "TODO: 基础配置组件，属于最基础的组件，其他几乎所有组件都可能直接或间接的引用它",
   "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Config",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Config.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "8.0"

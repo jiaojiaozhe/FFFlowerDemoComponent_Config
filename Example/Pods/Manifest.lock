@@ -1,5 +1,5 @@
 PODS:
-  - FFFlowerDemoComponent_Config (0.1.0)
+  - FFFlowerDemoComponent_Config (1.0.1)
 
 DEPENDENCIES:
   - FFFlowerDemoComponent_Config (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FFFlowerDemoComponent_Config: 2641d5ba2433c7623606b8228100ad67b0db28af
+  FFFlowerDemoComponent_Config: c4b1b2081eae6c54ba6da531c543c3647ac227e6
 
 PODFILE CHECKSUM: 20a7bf1f1a8f274147b2b381770365a9a45102ff
 

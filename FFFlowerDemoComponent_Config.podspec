@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_Config'
-  s.version          = '1'
+  s.version          = '1.0.1'
   s.summary          = '基础配置组件，属于最基础的组件'
 
 # This description is used to generate tags and improve search results.
